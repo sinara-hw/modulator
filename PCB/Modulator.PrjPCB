@@ -43,13 +43,14 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=default
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Multiplier_channel.SchDoc
+DocumentPath=IN_conditioning.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -150,6 +151,102 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXWNFARM
 
+[Document7]
+DocumentPath=Multiplier_channel.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=15
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CEAWPSVP
+
+[Document8]
+DocumentPath=OUT_conditioning.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=16
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOOGSKGI
+
+[Document9]
+DocumentPath=Modulator_pLib.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UNKIPYIC
+
+[Document10]
+DocumentPath=Modulator_pLib.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VMFGAETT
+
+[ProjectVariant1]
+UniqueID=4E8D0DDD-8BB1-4905-932E-FEEDCE235F3F
+Description=default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=20
+Variation1=Designator=C11A|UniqueId=\BCZDQGQF\WCIRLKJH\FZEFXHTK|Kind=1|AlternatePart= 
+Variation2=Designator=C11B|UniqueId=\BCZDQGQF\RVJWYRBA\FZEFXHTK|Kind=1|AlternatePart= 
+Variation3=Designator=C21A|UniqueId=\BCZDQGQF\RPFXAXKR\SUMAKLGR|Kind=1|AlternatePart= 
+Variation4=Designator=C21B|UniqueId=\YMYLNAVR\RPFXAXKR\SUMAKLGR|Kind=1|AlternatePart= 
+Variation5=Designator=R1A|UniqueId=\BCZDQGQF\WCIRLKJH\ZMTPVEMG|Kind=1|AlternatePart= 
+Variation6=Designator=R1B|UniqueId=\BCZDQGQF\RVJWYRBA\ZMTPVEMG|Kind=1|AlternatePart= 
+Variation7=Designator=R20A|UniqueId=\BCZDQGQF\WCIRLKJH\TGMWGJWX|Kind=1|AlternatePart= 
+Variation8=Designator=R20B|UniqueId=\BCZDQGQF\RVJWYRBA\TGMWGJWX|Kind=1|AlternatePart= 
+Variation9=Designator=R15A|UniqueId=\BCZDQGQF\RPFXAXKR\OCSOPFSY|Kind=1|AlternatePart= 
+Variation10=Designator=R15B|UniqueId=\YMYLNAVR\RPFXAXKR\OCSOPFSY|Kind=1|AlternatePart= 
+Variation11=Designator=R17A|UniqueId=\BCZDQGQF\RPFXAXKR\GLBNROSL|Kind=1|AlternatePart= 
+Variation12=Designator=R17B|UniqueId=\YMYLNAVR\RPFXAXKR\GLBNROSL|Kind=1|AlternatePart= 
+Variation13=Designator=R60|UniqueId=\PAPQQUNZ|Kind=1|AlternatePart= 
+Variation14=Designator=R27|UniqueId=\MAMZWLZE|Kind=1|AlternatePart= 
+Variation15=Designator=R28|UniqueId=\ITSIBHTW|Kind=1|AlternatePart= 
+Variation16=Designator=R29|UniqueId=\LBAAAXJE|Kind=1|AlternatePart= 
+Variation17=Designator=R30|UniqueId=\WLLAKDQJ|Kind=1|AlternatePart= 
+Variation18=Designator=R43|UniqueId=\GBVAKJZY|Kind=1|AlternatePart= 
+Variation19=Designator=R44|UniqueId=\NOXHJXDE|Kind=1|AlternatePart= 
+Variation20=Designator=R74|UniqueId=\XHGLOJGJ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [SearchPath1]
 Path=H:\Team Drives\Altium\AltiumLib\*.IntLib
 IncludeSubFolders=1
@@ -212,7 +309,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -314,22 +411,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -420,7 +507,7 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -442,7 +529,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -514,7 +601,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -563,7 +650,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -671,7 +758,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -715,7 +802,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -772,41 +859,21 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
+OutputType12=AnsysEDB
+OutputName12=Ansys EDB
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
+OutputType13=Web ReviewOutputName
+OutputName13=Web Review Data
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series
+TargetPrinter=Samsung SCX-3200 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1136,19 +1203,19 @@ Type127=1
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
 L2=NNWNNNNWWWNWNWNWN
-L3=NWWWNEEEENWWNEEWN
-L4=NNWNNNWEENNWNENWN
+L3=NWWWNWWWWNWWNWWWN
+L4=NNWNNNWWWNNWNWNWN
 L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNWNNNNEEENWNENWN
+L6=NNWNNNNWWNNWNWNWN
+L7=NNWWNNWWWNNWNWNWN
+L8=NWWWNWWNWWWNNWWNN
+L9=NWWWNWWWWNWWNWNWW
+L10=NWNNNNNWNNWWNNWWN
+L11=NNWNNNNWWWNWNWNWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
+L14=NWWWNWWWWNWWNWWWW
+L15=NNWNNNNWNWNWNWNWW
 L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
