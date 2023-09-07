@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : E:\Magazyn_TachBook\My Work\INNE\modulator\PCB\Modulator.PcbDoc
-Date     : 06.09.2023
-Time     : 23:33:50
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
-Rule Violations :0
+Date     : 07.09.2023
+Time     : 23:12:43
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(InPolygon and InNet('GND') and ((OnLayer('L1') OR OnLayer('L6'))))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials')),(All)
@@ -15,21 +15,17 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('SMAs') or InComponentClass('FP_LEDs')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(All)
-Rule Violations :0
-
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT ( InComponent('J8') OR InComponent('J11') OR InComponent('J2') OR InComponent('J3') OR InComponent('J4') OR InComponent('J5') OR InComponent('J6') ))
    Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (168 hole(s)) L3 
    Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (268 hole(s)) P5 
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (282 hole(s)) L4 
+   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (283 hole(s)) L4 
    Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (333 hole(s)) L6 
    Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (365 hole(s)) P2 
    Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (147.425mm,16.238mm)(148.344mm,17.158mm) on Keep-Out Layer 
    Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (148.344mm,17.158mm)(185.023mm,17.158mm) on Keep-Out Layer 
    Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (35.651mm,17.651mm)(37.064mm,16.238mm) on Keep-Out Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (36.452mm,16.797mm)(36.452mm,17.537mm) on L1 
    Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (37.064mm,16.238mm)(147.425mm,16.238mm) on Keep-Out Layer 
-Rule Violations :10
+Rule Violations :9
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50_Ohms')),(InPolygon)
 Rule Violations :0
@@ -37,42 +33,28 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(InPolygon    and ((OnLayer('P2') OR OnLayer('L3') OR OnLayer('L4') OR OnLayer('P5'))))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.127mm) (Not (OnLayer('Keep-Out Layer'))),(All)
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (109.365mm,75.195mm)(109.365mm,87.835mm) on L4 And Via (109.143mm,80.5mm) from L1 to L6 
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG2-1(42.862mm,20.256mm) on L1 And Region (0 hole(s)) L1 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG3-1(174.577mm,107.221mm) on L6 And Region (0 hole(s)) L6 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG4-1(42.862mm,20.256mm) on L6 And Region (0 hole(s)) L6 
    Violation between Clearance Constraint: (0.022mm < 0.127mm) Between Track (120.4mm,26.067mm)(176.272mm,26.067mm) on L4 And Via (172.644mm,26.414mm) from L1 to L6 
    Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (169.929mm,23.667mm)(171.834mm,21.762mm) on L4 And Via (170.674mm,22.629mm) from L1 to L6 
    Violation between Clearance Constraint: (0.032mm < 0.127mm) Between Track (176.272mm,26.067mm)(184.579mm,34.374mm) on L4 And Via (178.41mm,27.7mm) from L1 to L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (48.46mm,73.463mm)(75.173mm,73.463mm) on L6 And Via (55.25mm,73.463mm) from L1 to L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (50.156mm,29.697mm)(75.56mm,29.697mm) on L6 And Via (55.25mm,29.869mm) from L1 to L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (50.444mm,97.3mm)(68.9mm,97.3mm) on L6 And Via (61.08mm,97.315mm) from L1 to L6 
-   Violation between Clearance Constraint: (0.046mm < 0.127mm) Between Track (50.444mm,97.3mm)(68.9mm,97.3mm) on L6 And Via (61.49mm,97.735mm) from L1 to L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (50.444mm,97.3mm)(68.9mm,97.3mm) on L6 And Via (61.88mm,97.315mm) from L1 to L6 
-   Violation between Clearance Constraint: (0.011mm < 0.127mm) Between Track (62.98mm,96.235mm)(68.777mm,96.235mm) on L4 And Via (68.45mm,95.874mm) from L1 to L6 
-Rule Violations :10
-
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (109.365mm,75.195mm)(109.365mm,87.835mm) on L4 And Via (109.143mm,80.5mm) from L1 to L6 Location : [X = 109.342mm][Y = 80.5mm]
-   Violation between Short-Circuit Constraint: Between Track (169.929mm,23.667mm)(171.834mm,21.762mm) on L4 And Via (170.674mm,22.629mm) from L1 to L6 Location : [X = 170.77mm][Y = 22.725mm]
-   Violation between Short-Circuit Constraint: Between Track (48.46mm,73.463mm)(75.173mm,73.463mm) on L6 And Via (55.25mm,73.463mm) from L1 to L6 Location : [X = 55.25mm][Y = 73.463mm]
-   Violation between Short-Circuit Constraint: Between Track (50.156mm,29.697mm)(75.56mm,29.697mm) on L6 And Via (55.25mm,29.869mm) from L1 to L6 Location : [X = 55.25mm][Y = 29.728mm]
-   Violation between Short-Circuit Constraint: Between Track (50.444mm,97.3mm)(68.9mm,97.3mm) on L6 And Via (61.08mm,97.315mm) from L1 to L6 Location : [X = 61.08mm][Y = 97.3mm]
-   Violation between Short-Circuit Constraint: Between Track (50.444mm,97.3mm)(68.9mm,97.3mm) on L6 And Via (61.88mm,97.315mm) from L1 to L6 Location : [X = 61.88mm][Y = 97.3mm]
 Rule Violations :6
 
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Track (169.929mm,23.667mm)(171.834mm,21.762mm) on L4 And Via (170.674mm,22.629mm) from L1 to L6 Location : [X = 170.77mm][Y = 22.725mm]
+Rule Violations :1
+
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R14A-1(79.127mm,94.095mm) on L1 [Unplated] And Via (79.805mm,94.961mm) from L1 to L6 
-   Violation between Un-Routed Net Constraint: Polygon  (balancing) on L6 Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Polygon  (NONET_L01_P-001) on L3 Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Polygon  (NONET_L01_P-001) on L3 Dead Copper - Net Not Assigned.
-Rule Violations :4
+Rule Violations :1
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.212mm) (Max=0.279mm) (Preferred=0.279mm) (InNetClass('50_Ohms'))
-   Violation between Width Constraint: Track (78.175mm,101.675mm)(78.2mm,101.7mm) on L1 Actual Width = 0.2mm, Target Width = 0.278mm
-   Violation between Width Constraint: Track (78.19mm,57.99mm)(78.215mm,58.015mm) on L1 Actual Width = 0.2mm, Target Width = 0.278mm
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.2mm) (All)
 Rule Violations :0
@@ -83,55 +65,29 @@ Rule Violations :0
 Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.5mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.5mm) (MaxWidth=1mm) (PreferedWidth=0.5mm) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.25mm) (Prefered=0.25mm)  and Width Constraints (Min=0.15mm) (Max=0.381mm) (Prefered=0.15mm) ((InDifferentialPairClass('All Differential Pairs')))
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.25mm) (Prefered=0.25mm)  and Width Constraints (Min=0.15mm) (Max=0.381mm) (Prefered=0.381mm) ((InDifferentialPairClass('All Differential Pairs')))
    Violation between Differential Pairs Routing: Track (103.195mm,78.6mm)(103.2mm,78.605mm) on L1 Actual Width = 0.2mm, Target Width = 0.152mm
    Violation between Differential Pairs Routing: Track (74.344mm,32.648mm)(74.344mm,32.663mm) on L1 Actual Width = 0.2mm, Target Width = 0.152mm
 Rule Violations :2
 
-Processing Rule : SMD Neck-Down Constraint (Percent=100%) (All)
-   Violation between SMD Neck-Down Constraint: Between Pad IC10-1(144mm,48.05mm) on L1 And Track (144mm,48.2mm)(144mm,48.55mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC10-2(144mm,48.55mm) on L1 And Track (144mm,48.2mm)(144mm,48.55mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC10-3(144mm,49.05mm) on L1 And Track (144mm,48.55mm)(144mm,48.9mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC10-7(141mm,48.55mm) on L1 And Track (141mm,48.05mm)(141mm,48.4mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC10-8(141mm,48.05mm) on L1 And Track (141mm,47mm)(141mm,48.05mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC15A-20(120.915mm,80.525mm) on L1 And Track (119.425mm,80.525mm)(120.915mm,80.525mm) on L1 Relative Track Width: 120,00%
-   Violation between SMD Neck-Down Constraint: Between Pad IC16-1(152.84mm,33.738mm) on L1 And Track (152.84mm,33.9mm)(152.84mm,34.238mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC16-10(149.84mm,33.738mm) on L1 And Track (149.9mm,28.179mm)(149.9mm,34.1mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC16-2(152.84mm,34.238mm) on L1 And Track (152.84mm,33.9mm)(152.84mm,34.238mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC16-3(152.84mm,34.738mm) on L1 And Track (152.84mm,34.248mm)(152.84mm,34.6mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC16-9(149.84mm,34.238mm) on L1 And Track (149.9mm,28.179mm)(149.9mm,34.1mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC201-1(160.285mm,54.845mm) on L1 And Track (160.4mm,54.845mm)(161.83mm,54.845mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC202-1(145.7mm,100.8mm) on L1 And Track (140.8mm,100.8mm)(145.6mm,100.8mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC202-5(147.2mm,103.8mm) on L1 And Track (147.3mm,103.8mm)(148.85mm,103.8mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC205-1(144.27mm,58.826mm) on L1 And Track (144.27mm,58.9mm)(144.27mm,59.326mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC205-2(144.27mm,59.326mm) on L1 And Track (144.27mm,59.326mm)(146.174mm,59.326mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC205-3(144.27mm,59.826mm) on L1 And Track (144.27mm,59.326mm)(144.27mm,59.7mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC205-7(141.27mm,59.326mm) on L1 And Track (141.27mm,58.826mm)(141.27mm,59.2mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC205-8(141.27mm,58.826mm) on L1 And Track (141.27mm,58.826mm)(141.27mm,59.2mm) on L1 Relative Track Width: 166,67%
-   Violation between SMD Neck-Down Constraint: Between Pad IC9-1(153.125mm,65.672mm) on L1 And Track (146.95mm,65.397mm)(153.125mm,65.397mm) on L1 Relative Track Width: 200,00%
-   Violation between SMD Neck-Down Constraint: Between Pad IC9-10(156.125mm,65.672mm) on L1 And Track (156.125mm,65.397mm)(162.825mm,65.397mm) on L1 Relative Track Width: 200,00%
-   Violation between SMD Neck-Down Constraint: Between Pad IC9-2(153.125mm,65.172mm) on L1 And Track (146.95mm,65.397mm)(153.125mm,65.397mm) on L1 Relative Track Width: 200,00%
-   Violation between SMD Neck-Down Constraint: Between Pad IC9-9(156.125mm,65.172mm) on L1 And Track (156.125mm,65.397mm)(162.825mm,65.397mm) on L1 Relative Track Width: 200,00%
-Rule Violations :23
-
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('All Pads'))
-Rule Violations :0
-
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=0.1mm) ((InNetClass('50_Ohms') OR InDifferentialPairClass('All Differential Pairs')))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('All Pads'))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (All)
 Rule Violations :0
 
-Processing Rule : Acute Angle Constraint (Minimum=50.000) (InNet('GND'))
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) ((InNetClass('50_Ohms') OR InDifferentialPairClass('All Differential Pairs')))
 Rule Violations :0
 
 Processing Rule : Acute Angle Constraint (Minimum=50.000) (All)
-   Violation between Acute Angle Constraint: (45,000 < 50,000) Polygon Region (129 hole(s)) L3 (Angle = 45,000)
+   Violation between Acute Angle Constraint: (45,000 < 50,000) Polygon Region (119 hole(s)) L3 (Angle = 45,000)
 Rule Violations :1
+
+Processing Rule : Acute Angle Constraint (Minimum=50.000) (InNet('GND'))
+Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=5mm) (All)
 Rule Violations :0
@@ -149,61 +105,25 @@ Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (142.36mm,59.156mm) from L1 to L6 
-   Violation between Net Antennae: Via (142.36mm,59.956mm) from L1 to L6 
-   Violation between Net Antennae: Via (143.16mm,59.956mm) from L1 to L6 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Room IN22 (Bounding Region = (45.935mm, 41.695mm, 67.396mm, 56.57mm) (InComponentClass('IN22'))
 Rule Violations :0
 
-Processing Rule : Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2'))
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component R22B-8R2 (53.295mm,42.15mm) on L1 
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component R78B-0 (52.845mm,39.35mm) on L1 
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component R79B-0 (52.845mm,47.55mm) on L1 
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component R80B-442 (53.295mm,44.25mm) on L1 
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component SW1B-Switch (48.9mm,43.45mm) on L1 
-   Violation between Room Definition: Between Room M2 (Bounding Region = (57.08mm, 25.125mm, 127.144mm, 58.615mm) (InComponentClass('M2')) And SMT Small Component SW4B-Switch (74.09mm,58.015mm) on L1 
-Rule Violations :6
-
 Processing Rule : Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12'))
-   Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R10D-0 (74.3mm,38.9mm) on L1 
-   Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R20D-0 (75.4mm,38.9mm) on L1 
-   Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R3D-0 (72.8mm,38.9mm) on L1 
-   Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R6D-0 (71.715mm,38.9mm) on L1 
-Rule Violations :4
+Rule Violations :0
 
-Processing Rule : Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1'))
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component R22A-8R2 (54.045mm,86.4mm) on L1 
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component R78A-0 (53.595mm,83.6mm) on L1 
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component R79A-0 (53.595mm,91.8mm) on L1 
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component R80A-442 (54.045mm,88.5mm) on L1 
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component SW1A-Switch (49.65mm,87.7mm) on L1 
-   Violation between Room Definition: Between Room M1 (Bounding Region = (57.065mm, 68.81mm, 127.129mm, 102.3mm) (InComponentClass('M1')) And SMT Small Component SW4A-Switch (74.075mm,101.7mm) on L1 
-Rule Violations :6
+Processing Rule : Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11'))
+Rule Violations :0
+
+Processing Rule : Room M1 (Bounding Region = (42.519mm, 64.802mm, 130mm, 106.735mm) (InComponentClass('M1'))
+Rule Violations :0
 
 Processing Rule : Room U_Supply_Modulator (Bounding Region = (134.475mm, 20.1mm, 165.4mm, 107.595mm) (Disabled)(InComponentClass('U_Supply_Modulator'))
 Rule Violations :0
 
-Processing Rule : Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11'))
-   Violation between Room Definition: Between Component IC11A-74LVC1GU04GW (117.21mm,98.13mm) on L1 And Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) 
-   Violation between Room Definition: Between Component IC13A-74LVC1GU04GW (117.2mm,101.6mm) on L1 And Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component C35A-100nF (119.7mm,98.3mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component C36A-100nF (119.7mm,101.8mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component C41A-2.2uF (116.2mm,68.1mm) on L6 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component L15A-600R@100MHz (113.5mm,68.9mm) on L6 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R15A-100 (74.563mm,76.589mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R34A-0 (76.3mm,76mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R36A-0 (78.4mm,76mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R39A-0 (76.3mm,77.1mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R40A-0 (78.4mm,77.1mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R42A-0 (78.4mm,78.2mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R51A-0 (78.37mm,74.9mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R72A-10k (113.7mm,98.6mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component R73A-10k (100.1mm,98.6mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component SW2A-Switch (106.978mm,98.15mm) on L1 
-   Violation between Room Definition: Between Room OUT11 (Bounding Region = (86.498mm, 68.765mm, 128.965mm, 91.96mm) (InComponentClass('OUT11')) And SMT Small Component SW3A-Switch (93.515mm,98.112mm) on L1 
-Rule Violations :17
+Processing Rule : Room OUT11 (Bounding Region = (67.546mm, 68.765mm, 132mm, 104.037mm) (InComponentClass('OUT11'))
+Rule Violations :0
 
 Processing Rule : Room IN32 (Bounding Region = (45.9mm, 25.025mm, 67.36mm, 39.9mm) (InComponentClass('IN32'))
 Rule Violations :0
@@ -211,123 +131,34 @@ Rule Violations :0
 Processing Rule : Room U_LVDS_IFCA (Bounding Region = (165.7mm, 23.94mm, 189.048mm, 76.2mm) (Disabled)(InComponentClass('U_LVDS_IFCA'))
 Rule Violations :0
 
-Processing Rule : Room IN31 (Bounding Region = (45.9mm, 68.71mm, 67.36mm, 83.585mm) (InComponentClass('IN31'))
-   Violation between Room Definition: Between Room IN31 (Bounding Region = (45.9mm, 68.71mm, 67.36mm, 83.585mm) (InComponentClass('IN31')) And SMT Small Component C53C-100nF (63mm,94.8mm) on L6 
-Rule Violations :1
+Processing Rule : Room OUT12 (Bounding Region = (68.044mm, 24.95mm, 131.784mm, 61.5mm) (InComponentClass('OUT12'))
+Rule Violations :0
 
 Processing Rule : Room IN21 (Bounding Region = (45.86mm, 87.435mm, 67.321mm, 102.31mm) (InComponentClass('IN21'))
-   Violation between Room Definition: Between Room IN21 (Bounding Region = (45.86mm, 87.435mm, 67.321mm, 102.31mm) (InComponentClass('IN21')) And SMT Small Component C53B-100nF (75.2mm,85.5mm) on L6 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator'))
-   Violation between Room Definition: Between Component J10-SMA (34.575mm,46.675mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J11-SMA (34.575mm,61.375mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J2-MCX (32.025mm,93.625mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J3-SMA (34.575mm,86.275mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J4-MCX (32.025mm,78.925mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J5-SMA (34.575mm,100.975mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J6-MCX (32.025mm,39.34mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J7-SMA (34.575mm,71.575mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J8-MCX (32.025mm,54.025mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Component J9-SMA (34.575mm,32mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 
-   Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER8 (27.5mm,101mm) on L1 
-Rule Violations :16
+Rule Violations :0
 
-Processing Rule : Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12'))
-   Violation between Room Definition: Between Component IC11B-74LVC1GU04GW (117.158mm,54.315mm) on L1 And Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) 
-   Violation between Room Definition: Between Component IC13B-74LVC1GU04GW (117.148mm,57.785mm) on L1 And Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component C35B-100nF (119.648mm,54.485mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component C36B-100nF (119.648mm,57.985mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component C41B-2.2uF (115.7mm,24.5mm) on L6 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component L15B-600R@100MHz (113mm,25.3mm) on L6 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R15B-100 (74.508mm,32.939mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R34B-0 (76.245mm,32.35mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R36B-0 (78.345mm,32.35mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R39B-0 (76.245mm,33.45mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R40B-0 (78.345mm,33.45mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R42B-0 (78.345mm,34.55mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R51B-0 (78.315mm,31.25mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R72B-10k (113.648mm,54.785mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component R73B-10k (100.048mm,54.785mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component SW2B-Switch (106.926mm,54.335mm) on L1 
-   Violation between Room Definition: Between Room OUT12 (Bounding Region = (86.446mm, 24.95mm, 128.913mm, 48.145mm) (InComponentClass('OUT12')) And SMT Small Component SW3B-Switch (93.463mm,54.297mm) on L1 
-Rule Violations :17
+Processing Rule : Room IN31 (Bounding Region = (45.9mm, 68.71mm, 67.36mm, 83.585mm) (InComponentClass('IN31'))
+Rule Violations :0
 
-Processing Rule : Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11'))
-   Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component C53A-100nF (63.378mm,75.838mm) on L6 
-   Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component R3A-0 (72.535mm,82.5mm) on L1 
-   Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component R6A-0 (71.45mm,82.5mm) on L1 
-Rule Violations :3
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0.254mm ) ((HasFootprint('ERMET ZD 3-10 CONNECTOR'))),((HasFootprint('ERMET ZD 3-10 CONNECTOR'))) 
+Processing Rule : Room M2 (Bounding Region = (44.346mm, 20.985mm, 137.748mm, 65.142mm) (InComponentClass('M2'))
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0.254mm ) (HasFootprint('Coaxipack2')),(HasFootprint('Coaxipack2')) 
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.73mm, 100.975mm) And Component J5-SMA (34.575mm,100.975mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.75mm, 32mm) And Component J9-SMA (34.575mm,32mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.805mm, 71.65mm) And Component J7-SMA (34.575mm,71.575mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.85mm, 46.775mm) And Component J10-SMA (34.575mm,46.675mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.85mm, 61.375mm) And Component J11-SMA (34.575mm,61.375mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.8mm, 86.275mm) And Component J3-SMA (34.575mm,86.275mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J10-SMA (34.575mm,46.675mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J11-SMA (34.575mm,61.375mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J2-MCX (32.025mm,93.625mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J3-SMA (34.575mm,86.275mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J4-MCX (32.025mm,78.925mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J5-SMA (34.575mm,100.975mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J6-MCX (32.025mm,39.34mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J7-SMA (34.575mm,71.575mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J8-MCX (32.025mm,54.025mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J9-SMA (34.575mm,32mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SIP Component LD7-Red/Green (32.598mm,25.135mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Small Component B1-Plated Hole (33.604mm,108.547mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Small Component B2-Plated Hole (33.604mm,19.647mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER8 (27.5mm,101mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J10-SMA (34.575mm,46.675mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J11-SMA (34.575mm,61.375mm) on L1 And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J2-MCX (32.025mm,93.625mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J2-MCX (32.025mm,93.625mm) on L1 And SMT Small Component WASHER8 (27.5mm,101mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J3-SMA (34.575mm,86.275mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J4-MCX (32.025mm,78.925mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J4-MCX (32.025mm,78.925mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J5-SMA (34.575mm,100.975mm) on L1 And SMT Small Component WASHER8 (27.5mm,101mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J6-MCX (32.025mm,39.34mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J6-MCX (32.025mm,39.34mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J7-SMA (34.575mm,71.575mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J8-MCX (32.025mm,54.025mm) on L1 And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J8-MCX (32.025mm,54.025mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J9-SMA (34.575mm,32mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SIP Component LD7-Red/Green (32.598mm,25.135mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C29A-10nF (122.75mm,77.984mm) on L1 And SMT Small Component R61A-0 (123.242mm,77.543mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C29B-10nF (122.256mm,34.168mm) on L1 And SMT Small Component R61B-0 (122.749mm,33.726mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32A-10nF (126.304mm,81.527mm) on L1 And SMT Small Component R62A-0 (126.762mm,81.085mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32A-10nF (126.304mm,81.527mm) on L1 And SMT Small Component R71A-0 (126.754mm,81.995mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32B-10nF (125.85mm,37.853mm) on L1 And SMT Small Component R62B-0 (126.309mm,37.411mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32B-10nF (125.85mm,37.853mm) on L1 And SMT Small Component R71B-0 (126.3mm,38.321mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C33A-10nF (122.76mm,85.123mm) on L1 And SMT Small Component R70A-0 (123.218mm,85.59mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C33B-10nF (122.256mm,41.447mm) on L1 And SMT Small Component R70B-0 (122.714mm,41.913mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component R62A-0 (126.762mm,81.085mm) on L1 And SMT Small Component R71A-0 (126.754mm,81.995mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component R62B-0 (126.309mm,37.411mm) on L1 And SMT Small Component R71B-0 (126.3mm,38.321mm) on L1 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 
-Rule Violations :51
-
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponentClass('Front Panel')),(All) 
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) ((HasFootprint('TPS127'))),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0.254mm ) ((HasFootprint('ERMET ZD 3-10 CONNECTOR'))),((HasFootprint('ERMET ZD 3-10 CONNECTOR'))) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponentClass('Front Panel')),(All) 
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=20mm) (Prefered=10mm) (All)
@@ -336,13 +167,111 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mm) (Max=20mm) (Prefered=1mm) (OnLayer('Top Layer (LO)'))
 Rule Violations :0
 
-Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) (Not (OnLayer('Keep-Out Layer'))),(All)
-   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG2-1(42.862mm,20.256mm) on L1 And Region (0 hole(s)) L1 Waived by Grzegorz Kasprowicz at 07.10.2020 00:52:08
-   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG3-1(174.577mm,107.221mm) on L6 And Region (0 hole(s)) L6 Waived by Grzegorz Kasprowicz at 07.10.2020 00:52:08
-   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG4-1(42.862mm,20.256mm) on L6 And Region (0 hole(s)) L6 Waived by Grzegorz Kasprowicz at 07.10.2020 00:52:08
+Waived Violations Of Rule : Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12'))
+   Waived Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R10D-0 (74.3mm,38.9mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R20D-0 (75.4mm,38.9mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R3D-0 (72.8mm,38.9mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room IN12 (Bounding Region = (67.525mm, 38.04mm, 82.4mm, 59.5mm) (InComponentClass('IN12')) And SMT Small Component R6D-0 (71.715mm,38.9mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :4
+
+Waived Violations Of Rule : Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11'))
+   Waived Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component C53A-100nF (63.378mm,75.838mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component R3A-0 (72.535mm,82.5mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room IN11 (Bounding Region = (67.437mm, 81.635mm, 82.312mm, 103.095mm) (InComponentClass('IN11')) And SMT Small Component R6A-0 (71.45mm,82.5mm) on L1 Waived by sh at 07.09.2023 23:07:12room
 Waived Violations :3
 
+Waived Violations Of Rule : Room OUT11 (Bounding Region = (67.546mm, 68.765mm, 132mm, 104.037mm) (InComponentClass('OUT11'))
+   Waived Violation between Room Definition: Between Room OUT11 (Bounding Region = (67.546mm, 68.765mm, 132mm, 104.037mm) (InComponentClass('OUT11')) And SMT Small Component C41A-2.2uF (116.2mm,68.1mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room OUT11 (Bounding Region = (67.546mm, 68.765mm, 132mm, 104.037mm) (InComponentClass('OUT11')) And SMT Small Component L15A-600R@100MHz (113.5mm,68.9mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :2
 
-Violations Detected : 183
-Waived Violations : 3
-Time Elapsed        : 00:00:03
+Waived Violations Of Rule : Room OUT12 (Bounding Region = (68.044mm, 24.95mm, 131.784mm, 61.5mm) (InComponentClass('OUT12'))
+   Waived Violation between Room Definition: Between Room OUT12 (Bounding Region = (68.044mm, 24.95mm, 131.784mm, 61.5mm) (InComponentClass('OUT12')) And SMT Small Component C41B-2.2uF (115.7mm,24.5mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room OUT12 (Bounding Region = (68.044mm, 24.95mm, 131.784mm, 61.5mm) (InComponentClass('OUT12')) And SMT Small Component L15B-600R@100MHz (113mm,25.3mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :2
+
+Waived Violations Of Rule : Room IN21 (Bounding Region = (45.86mm, 87.435mm, 67.321mm, 102.31mm) (InComponentClass('IN21'))
+   Waived Violation between Room Definition: Between Room IN21 (Bounding Region = (45.86mm, 87.435mm, 67.321mm, 102.31mm) (InComponentClass('IN21')) And SMT Small Component C53B-100nF (75.2mm,85.5mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :1
+
+Waived Violations Of Rule : Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator'))
+   Waived Violation between Room Definition: Between Component J10-SMA (34.575mm,46.675mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J11-SMA (34.575mm,61.375mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J2-MCX (32.025mm,93.625mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J3-SMA (34.575mm,86.275mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J4-MCX (32.025mm,78.925mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J5-SMA (34.575mm,100.975mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J6-MCX (32.025mm,39.34mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J7-SMA (34.575mm,71.575mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J8-MCX (32.025mm,54.025mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Component J9-SMA (34.575mm,32mm) on L1 And Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+   Waived Violation between Room Definition: Between Room Modulator (Bounding Region = (30.868mm, 16.111mm, 188.725mm, 112mm) (InComponentClass('Modulator')) And SMT Small Component WASHER8 (27.5mm,101mm) on L1 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :16
+
+Waived Violations Of Rule : Room IN31 (Bounding Region = (45.9mm, 68.71mm, 67.36mm, 83.585mm) (InComponentClass('IN31'))
+   Waived Violation between Room Definition: Between Room IN31 (Bounding Region = (45.9mm, 68.71mm, 67.36mm, 83.585mm) (InComponentClass('IN31')) And SMT Small Component C53C-100nF (62.98mm,93.85mm) on L6 Waived by sh at 07.09.2023 23:07:12room
+Waived Violations :1
+
+Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.73mm, 100.975mm) And Component J5-SMA (34.575mm,100.975mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.75mm, 32mm) And Component J9-SMA (34.575mm,32mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.805mm, 71.65mm) And Component J7-SMA (34.575mm,71.575mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.85mm, 46.775mm) And Component J10-SMA (34.575mm,46.675mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.85mm, 61.375mm) And Component J11-SMA (34.575mm,61.375mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP 7579 (Mechanical 13)  Standoff=2.5mm  Overall=10.5mm  (23.8mm, 86.275mm) And Component J3-SMA (34.575mm,86.275mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J10-SMA (34.575mm,46.675mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J11-SMA (34.575mm,61.375mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J2-MCX (32.025mm,93.625mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J3-SMA (34.575mm,86.275mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J4-MCX (32.025mm,78.925mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J5-SMA (34.575mm,100.975mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J6-MCX (32.025mm,39.34mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J7-SMA (34.575mm,71.575mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J8-MCX (32.025mm,54.025mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Component J9-SMA (34.575mm,32mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SIP Component LD7-Red/Green (32.598mm,25.135mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Small Component B1-Plated Hole (33.604mm,108.547mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And Small Component B2-Plated Hole (33.604mm,19.647mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel (Mechanical 13)  Standoff=-4.01mm  Overall=16.951mm  (30.134mm, 14.238mm) And SMT Small Component WASHER8 (27.5mm,101mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J10-SMA (34.575mm,46.675mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J11-SMA (34.575mm,61.375mm) on L1 And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J2-MCX (32.025mm,93.625mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J2-MCX (32.025mm,93.625mm) on L1 And SMT Small Component WASHER8 (27.5mm,101mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J3-SMA (34.575mm,86.275mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J4-MCX (32.025mm,78.925mm) on L1 And SMT Small Component WASHER2 (27.5mm,86.4mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J4-MCX (32.025mm,78.925mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J5-SMA (34.575mm,100.975mm) on L1 And SMT Small Component WASHER8 (27.5mm,101mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J6-MCX (32.025mm,39.34mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J6-MCX (32.025mm,39.34mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J7-SMA (34.575mm,71.575mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J8-MCX (32.025mm,54.025mm) on L1 And SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J8-MCX (32.025mm,54.025mm) on L1 And SMT Small Component WASHER3 (27.5mm,46.7mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J9-SMA (34.575mm,32mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SIP Component LD7-Red/Green (32.598mm,25.135mm) on L1 And SMT Small Component WASHER6 (27.5mm,31.9mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C29A-10nF (122.75mm,77.984mm) on L1 And SMT Small Component R61A-0 (123.242mm,77.543mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C29B-10nF (122.256mm,34.168mm) on L1 And SMT Small Component R61B-0 (122.749mm,33.726mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32A-10nF (126.304mm,81.527mm) on L1 And SMT Small Component R62A-0 (126.762mm,81.085mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32A-10nF (126.304mm,81.527mm) on L1 And SMT Small Component R71A-0 (126.754mm,81.995mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32B-10nF (125.85mm,37.853mm) on L1 And SMT Small Component R62B-0 (126.309mm,37.411mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C32B-10nF (125.85mm,37.853mm) on L1 And SMT Small Component R71B-0 (126.3mm,38.321mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C33A-10nF (122.76mm,85.123mm) on L1 And SMT Small Component R70A-0 (123.218mm,85.59mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component C33B-10nF (122.256mm,41.447mm) on L1 And SMT Small Component R70B-0 (122.714mm,41.913mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component R62A-0 (126.762mm,81.085mm) on L1 And SMT Small Component R71A-0 (126.754mm,81.995mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component R62B-0 (126.309mm,37.411mm) on L1 And SMT Small Component R71B-0 (126.3mm,38.321mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component WASHER1 (27.49mm,61.049mm) on L1 And SMT Small Component WASHER4 (27.5mm,71.6mm) on L1 Waived by sh at 07.09.2023 23:09:413D, res collision
+Waived Violations :51
+
+
+Violations Detected : 20
+Waived Violations : 80
+Time Elapsed        : 00:00:02

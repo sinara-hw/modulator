@@ -247,6 +247,10 @@ Variation19=Designator=R44|UniqueId=\NOXHJXDE|Kind=1|AlternatePart=
 Variation20=Designator=R74|UniqueId=\XHGLOJGJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Modulator\Design Rule Check - Modulator.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=H:\Team Drives\Altium\AltiumLib\*.IntLib
 IncludeSubFolders=1
