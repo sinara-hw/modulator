@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\Magazyn_TachBook\My Work\INNE\modulator\PCB\Modulator.PcbDoc
-Date     : 07.09.2023
-Time     : 23:12:43
+Date     : 08.09.2023
+Time     : 11:51:45
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(InPolygon and InNet('GND') and ((OnLayer('L1') OR OnLayer('L6'))))
 Rule Violations :0
@@ -15,40 +15,26 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('SMAs') or InComponentClass('FP_LEDs')),(All)
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(InPolygon    and ((OnLayer('P2') OR OnLayer('L3') OR OnLayer('L4') OR OnLayer('P5'))))
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT ( InComponent('J8') OR InComponent('J11') OR InComponent('J2') OR InComponent('J3') OR InComponent('J4') OR InComponent('J5') OR InComponent('J6') ))
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (168 hole(s)) L3 
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (268 hole(s)) P5 
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (283 hole(s)) L4 
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (333 hole(s)) L6 
-   Violation between Clearance Constraint: (0.097mm < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Polygon Region (365 hole(s)) P2 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (147.425mm,16.238mm)(148.344mm,17.158mm) on Keep-Out Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (148.344mm,17.158mm)(185.023mm,17.158mm) on Keep-Out Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (35.651mm,17.651mm)(37.064mm,16.238mm) on Keep-Out Layer 
-   Violation between Clearance Constraint: (Collision < 0.1mm) Between Polygon Region (0 hole(s)) Keep-Out Layer And Track (37.064mm,16.238mm)(147.425mm,16.238mm) on Keep-Out Layer 
-Rule Violations :9
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) ((HasFootprint('FIDUCIAL_TOP_C100-200') OR HasFootprint('FIDUCIAL_TOP_S100-200') OR HasFootprint('FIDUCIAL_TOP_S200-400'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50_Ohms')),(InPolygon)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(InPolygon    and ((OnLayer('P2') OR OnLayer('L3') OR OnLayer('L4') OR OnLayer('P5'))))
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG2-1(42.862mm,20.256mm) on L1 And Region (0 hole(s)) L1 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG3-1(174.577mm,107.221mm) on L6 And Region (0 hole(s)) L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad FTG4-1(42.862mm,20.256mm) on L6 And Region (0 hole(s)) L6 
-   Violation between Clearance Constraint: (0.022mm < 0.127mm) Between Track (120.4mm,26.067mm)(176.272mm,26.067mm) on L4 And Via (172.644mm,26.414mm) from L1 to L6 
-   Violation between Clearance Constraint: (Collision < 0.127mm) Between Track (169.929mm,23.667mm)(171.834mm,21.762mm) on L4 And Via (170.674mm,22.629mm) from L1 to L6 
-   Violation between Clearance Constraint: (0.032mm < 0.127mm) Between Track (176.272mm,26.067mm)(184.579mm,34.374mm) on L4 And Via (178.41mm,27.7mm) from L1 to L6 
-Rule Violations :6
-
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (169.929mm,23.667mm)(171.834mm,21.762mm) on L4 And Via (170.674mm,22.629mm) from L1 to L6 Location : [X = 170.77mm][Y = 22.725mm]
-Rule Violations :1
-
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Polygon  (NONET_L01_P-001) on L3 Dead Copper - Net Not Assigned.
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -66,9 +52,7 @@ Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.5mm) (Preferr
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.25mm) (Prefered=0.25mm)  and Width Constraints (Min=0.15mm) (Max=0.381mm) (Prefered=0.381mm) ((InDifferentialPairClass('All Differential Pairs')))
-   Violation between Differential Pairs Routing: Track (103.195mm,78.6mm)(103.2mm,78.605mm) on L1 Actual Width = 0.2mm, Target Width = 0.152mm
-   Violation between Differential Pairs Routing: Track (74.344mm,32.648mm)(74.344mm,32.663mm) on L1 Actual Width = 0.2mm, Target Width = 0.152mm
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
@@ -83,8 +67,7 @@ Processing Rule : Minimum Annular Ring (Minimum=0.1mm) ((InNetClass('50_Ohms') O
 Rule Violations :0
 
 Processing Rule : Acute Angle Constraint (Minimum=50.000) (All)
-   Violation between Acute Angle Constraint: (45,000 < 50,000) Polygon Region (119 hole(s)) L3 (Angle = 45,000)
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Acute Angle Constraint (Minimum=50.000) (InNet('GND'))
 Rule Violations :0
@@ -272,6 +255,6 @@ Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.
 Waived Violations :51
 
 
-Violations Detected : 20
+Violations Detected : 0
 Waived Violations : 80
 Time Elapsed        : 00:00:02
