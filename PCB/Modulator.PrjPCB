@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Modulator
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -219,6 +219,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VMFGAETT
 
+[Document11]
+DocumentPath=LVDS_IFC_VCO.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=DIOT_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=17
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RMUUFYQV
+
+[Document13]
+DocumentPath=DIOT_Connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=4E8D0DDD-8BB1-4905-932E-FEEDCE235F3F
 Description=default
@@ -272,6 +323,10 @@ Variation44=Designator=C11D|UniqueId=\YMYLNAVR\WCIRLKJH\FZEFXHTK|Kind=1|Alternat
 Variation45=Designator=C11E|UniqueId=\YMYLNAVR\RVJWYRBA\FZEFXHTK|Kind=1|AlternatePart= 
 Variation46=Designator=C11F|UniqueId=\YMYLNAVR\QQESNMQG\FZEFXHTK|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Modulator\Design Rule Check - Modulator.html
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=H:\Team Drives\Altium\AltiumLib\*.IntLib
@@ -330,7 +385,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Modulator
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
